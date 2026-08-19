@@ -80,19 +80,19 @@ operations-analytics-sql/
 
 ### Payment Method Performance
 
-![Payment Performance](screenshots/payment_performance.png)
+![Payment Performance](screenshots/payment_performance.png.png)
 
 ### Repeated Customer Failures
 
-![Customer Failures](screenshots/customer_failures.png)
+![Customer Failures](screenshots/customer_failures.png.png)
 
 ### Reconciliation Exceptions
 
-![Reconciliation Exceptions](screenshots/reconciliation_exceptions.png)
+![Reconciliation Exceptions](screenshots/reconciliation_exceptions.png.png)
 
 ### Missing Reconciliation Records
 
-![Missing Reconciliation Records](screenshots/missing_reconciliation_records.png)
+![Missing Reconciliation Records](screenshots/missing_reconciliation_records.png.png)
 
 ## Skills Demonstrated
 
