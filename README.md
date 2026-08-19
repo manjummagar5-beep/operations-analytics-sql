@@ -74,3 +74,32 @@ operations-analytics-sql/
     ├── customer_failures.png
     ├── reconciliation_exceptions.png
     └── missing_reconciliation_records.png
+```
+
+## Example Outputs
+
+### Payment Method Performance
+
+![Payment Performance](screenshots/payment_performance.png)
+
+### Repeated Customer Failures
+
+![Customer Failures](screenshots/customer_failures.png)
+
+### Reconciliation Exceptions
+
+![Reconciliation Exceptions](screenshots/reconciliation_exceptions.png)
+
+### Missing Reconciliation Records
+
+![Missing Reconciliation Records](screenshots/missing_reconciliation_records.png)
+
+## Skills Demonstrated
+
+- Operational data analysis and KPI monitoring
+- Customer and transaction-level investigation
+- Exception identification and prioritisation
+- Reconciliation and missing-record analysis
+- Multi-table analysis using SQL JOINs
+- Trend and month-on-month performance analysis
+- Translating data findings into operational insights
