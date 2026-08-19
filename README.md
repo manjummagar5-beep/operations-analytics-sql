@@ -92,8 +92,6 @@ operations-analytics-sql/
 
 ### Missing Reconciliation Records
 
-### Missing Reconciliation Records
-
 ![Missing Reconciliation Records](screenshots/missing_reconciliation_records.png.png)
 
 ## Skills Demonstrated
