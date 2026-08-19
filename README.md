@@ -40,7 +40,7 @@ Three synthetic datasets were used:
 - `transactions.csv` — transaction activity, status, value, method, and failure reason
 - `reconciliation.csv` — expected and settled amounts with settlement status
 
-- ## Data Model
+## Data Model
 
 The analysis links the three datasets using shared identifiers:
 
