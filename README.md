@@ -40,6 +40,46 @@ Three synthetic datasets were used:
 - `transactions.csv` — transaction activity, status, value, method, and failure reason
 - `reconciliation.csv` — expected and settled amounts with settlement status
 
+- ## Data Model
+
+The analysis links the three datasets using shared identifiers:
+
+```text
+┌──────────────────┐
+│    customers     │
+├──────────────────┤
+│ customer_id      │
+│ customer_type    │
+│ country          │
+│ segment          │
+└────────┬─────────┘
+         │ customer_id
+         ▼
+┌──────────────────┐
+│   transactions   │
+├──────────────────┤
+│ transaction_id   │
+│ customer_id      │
+│ transaction_date │
+│ amount           │
+│ payment_method   │
+│ status           │
+└────────┬─────────┘
+         │ transaction_id
+         ▼
+┌──────────────────┐
+│ reconciliation   │
+├──────────────────┤
+│ transaction_id   │
+│ expected_amount  │
+│ settled_amount   │
+│ settlement_status│
+│ settlement_date  │
+└──────────────────┘
+```
+
+`customers.customer_id` is used to join customer records to transactions, while `transactions.transaction_id` is used to connect transactions to reconciliation records.
+
 ## Key Findings
 
 - Credit Card transactions recorded the highest failure rate at **21.30%**
