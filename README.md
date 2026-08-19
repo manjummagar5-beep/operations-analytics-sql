@@ -78,8 +78,6 @@ operations-analytics-sql/
 
 ## Example Outputs
 
-## Example Outputs
-
 ### Payment Method Performance
 
 ![Payment Performance](screenshots/payment_performance.png)
