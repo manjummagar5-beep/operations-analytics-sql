@@ -92,7 +92,10 @@ operations-analytics-sql/
 
 ### Missing Reconciliation Records
 
-![Missing Reconciliation Records](screenshots/missing_reconciliation_records.png_.png)
+### Missing Reconciliation Records
+
+![Missing Reconciliation Records](screenshots/missing_reconciliation_records.png.png)
+
 ## Skills Demonstrated
 
 - Operational data analysis and KPI monitoring
