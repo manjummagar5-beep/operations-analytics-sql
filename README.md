@@ -78,21 +78,23 @@ operations-analytics-sql/
 
 ## Example Outputs
 
+## Example Outputs
+
 ### Payment Method Performance
 
-![Payment Performance](screenshots/payment_performance.png.png)
+![Payment Performance](screenshots/payment_performance.png)
 
 ### Repeated Customer Failures
 
-![Customer Failures](screenshots/customer_failures.png.png)
+![Customer Failures](screenshots/customer_failures.png)
 
 ### Reconciliation Exceptions
 
-![Reconciliation Exceptions](screenshots/reconciliation_exceptions.png.png)
+![Reconciliation Exceptions](screenshots/reconciliation_exceptions.png)
 
 ### Missing Reconciliation Records
 
-![Missing Reconciliation Records](screenshots/missing_reconciliation_records.png.png)
+![Missing Reconciliation Records](screenshots/missing_reconciliation_records.png)
 
 ## Skills Demonstrated
 
